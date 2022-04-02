@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <script src="https://kit.fontawesome.com/c31f20646c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="icon" href="https://2.bp.blogspot.com/-Wg8FSK_ntCw/WIC35p13I4I/AAAAAAAAYkE/NigX0ARP108IvSehpOXk-ghVqCsKGVMnACLcB/s1600/snapdeal.jpg" type="image/icon type" style="border-radius: 30%;">
+    <title>Document</title>
+    <style>
+        .cart1{
+            width:80%;
+            margin-left:10%;
+            font-size: 15px;
+            /* border:1px solid black; */
+           
+        }
+        .empty{
+            text-align: center;
+            font-family: sans-serif;
+            font-size: 18px;
+            color: rgb(110, 109, 109);
+            margin-top: 3%;
+        }
+        .brows{
+            font-size: 9px;
+            color: rgb(110, 109, 109);
+            font-family: sans-serif;
+            word-spacing:-2px;
+            text-align: center;
+            margin-top: 4.5%;
+            font-size: 17px;
+        }
+        .hr{
+            border-top: 1px solid rgb(255, 255, 255);
+            height: 0.1px;
+        }
+        .catog{
+            width:100%;
+           display: grid;
+           grid-template-columns: repeat(4,1fr);
+           color:rgb(165, 164, 164); 
+           font-family: sans-serif;
+        }
+        .catog>div>p{
+            margin-top: 8%;
+            cursor: pointer;
+        }
+        .catog>div{
+            margin-left: 8%;
+            font-size: 16px;
+        }
+        button{
+            text-align: center;
+            background-color: #DE0B43;
+            width:27%;
+            height: 27px;
+            font-weight:bold;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            margin-left: 38%;
+            margin-top:2%;
+        }
+        .ptm{
+            display: flex;
+           margin-left: 27%;
+           margin-top: 3%;
+           color: rgb(201, 197, 197);
+           font-weight: small;
+           font-family: sans-serif;
+
+        }
+        .ptm>img{
+            width:1.5%;
+        }
+    </style>
+</head>
+<body>
+    <div id="header1">
+        <!-- place header here -->
+    </div>
+    <div class="cart1">
+        <div class="empty">Shoping cart is empty!</div>
+        <div class="brows">BROWSE CATEGORIES</div>
+        <hr class="hr">
+        <div class="catog">
+            <div>
+                <p>- Appliances</p>
+                <p>- Cameras & Accessories</p>
+                <p>- Gaming</p>
+                <p>- Men's Clothing</p>
+                <p>-Tablets & Accessories</p>
+            </div>
+            <div>
+                <p>- Baby & Kids</p>
+                <p>- Daily Needs</p>
+                <p>- Jewellery</p>
+                <p>-  Mobile Accessories</p>
+                <p>- TV, Audio & Video</p>
+            </div>
+            <div>
+                <p>- Beauty & Personal Care</p>
+                <p>-  Furnishing</p>
+                <p>- Kitchenware</p>
+                <p>- Mobile Phones</p>
+                <p>- Women's Ethnic Wear</p>
+            </div>
+            <div>
+                <p>-  Books</p>
+                <p>-   Furniture</p>
+                <p>-  Laptops & Computers</p>
+                <p>-  Nutrition & Suppliments</p>
+                <p>- Women's Western Wear</p>
+            </div>
+        </div>
+        <button class="gotothis" onclick="maincome()">START SHOPPING NOW</button>
+        <div class="ptm">
+            <img src="https://cdn-icons-png.flaticon.com/128/508/508281.png" alt="safepayment">
+
+                &#160 Safe and Secure Payments  &#160
+                <img src="https://cdn-icons.flaticon.com/png/128/3760/premium/3760135.png?token=exp=1645631404~hmac=80205eb93d734f480cfa8bdc4d769ea3" alt=""> 
+                &#160 100% Payment Protection, Easy Returns Policy  
+        </div>
+    </div>
+    <div id="expftr">
+    </div>
+</body>
+</html>
+<script type="module">
+
+    import navbar from "/components/navBar.js"
+    
+    let head = document.querySelector("#header1");
+    head.innerHTML = navbar();
+    
+    import footerFin from "/components/footerNav.js";
+    
+    let foot = document.querySelector("#expftr");
+        foot.innerHTML = footerFin();
+    
+    </script>
+    <script>
+        function maincome(){
+            window.location.href="Home.html"
+        }
+    </script>
