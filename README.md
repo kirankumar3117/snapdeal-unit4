@@ -29,3 +29,4 @@ To run, follow these steps:
 - Open that code in your VS code `-`
 - Open the `-` on Live server
 - Then you can Navigate through other pages from Sign_In page etc.
+<image src=" https://drive.google.com/file/d/1P5qiKQsw8itX8_YsnWFqFd6NJt8itwyX/view?usp=sharing"/>
