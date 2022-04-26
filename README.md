@@ -29,4 +29,7 @@ To run, follow these steps:
 - Open that code in your VS code `-`
 - Open the `-` on Live server
 - Then you can Navigate through other pages from Sign_In page etc.
-<image src=" https://drive.google.com/file/d/1P5qiKQsw8itX8_YsnWFqFd6NJt8itwyX/view?usp=sharing"/>
+
+![Screenshot (32)](https://user-images.githubusercontent.com/96133324/165300298-73db5bb3-a88e-4e60-868e-0d7add5e1c9b.png)
+![Screenshot (33)](https://user-images.githubusercontent.com/96133324/165300343-e1be2f68-242a-4c30-981a-a118354222f2.png)
+![Screenshot (34)](https://user-images.githubusercontent.com/96133324/165300381-fed6ca78-0c65-49eb-92f4-da1e6cd8cc3b.png)
